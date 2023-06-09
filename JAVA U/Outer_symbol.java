@@ -1,0 +1,11 @@
+import symbol.*;
+import java.util.*;
+
+class Outer_symbol {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the limit");
+        int line = sc.nextInt();
+        Display1.show(line);
+    }
+}
